@@ -151,7 +151,7 @@ func RSSRobot(c *gin.Context) {
 	case event_types.EventMessageText:
 		userMsg := event.(event_types.EventMessageText)
 		defaultFeedUrls := viper.GetStringSlice("DefaultFeedUrls")
-		content := "Source Code: Subscrible List: \n"
+		content := "Subscrible List: \n"
 		for _, url := range defaultFeedUrls {
 			content += url + "\n"
 		}
