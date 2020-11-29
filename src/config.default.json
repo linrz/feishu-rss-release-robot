@@ -1,0 +1,16 @@
+{
+  "AppId": "",
+  "AppSecret": "",
+  "VerificationToken": "",
+  "EncryptKey": "",
+
+  "RedisAddr": "127.0.0.1:6379",
+  "RedisPassword": "",
+  "RedisDB": 0,
+
+  "DefaultFeedUrls": [
+    "https://gitee.com/mirrors/react/releases.atom"
+  ],
+
+  "LISTEN": ":8001"
+}
